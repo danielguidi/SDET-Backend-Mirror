@@ -139,7 +139,7 @@ public class AllTests {
 		// Get the Camera list
 		LinkedHashMap my_cam = new LinkedHashMap(ph_re.get(0));
 
-		System.out.println("The cameras that wirked on 1000 sol are: " + my_cam.get("cameras"));
+		System.out.println("The cameras that worked on 1000 sol are: " + my_cam.get("cameras"));
 		
 		// Store Cam's names
 		ArrayList<String> cams = (ArrayList<String>) (my_cam.get("cameras"));
