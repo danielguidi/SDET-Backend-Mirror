@@ -115,7 +115,7 @@ public class AllTests {
                            System.out.println("The photo: " + my_photos_ed[i] + " is not the same as this one " + my_photos_sol[i]);
 	
 			      } // end try
-		      System.out.println("Photo number " + i + " is the same for sol 1000 and for Earth Date 2015-05-31");
+		      System.out.println("Photo number " + i + " is the same for sol 1000 and for Earth Date 2015-05-30");
 	 	    } // End for
 		
 	 } // end Test 3
@@ -169,7 +169,7 @@ public class AllTests {
 		for (int i = 0; i < cams.size(); i++)
 	 	     {
 		      // Print amount of taken photos
-		      System.out.println(cams.get(i) + " has taken " + aux_arr.get(i) + " photos on 1000 sol."); //" + (String) aux_arr.get(i) + "
+		      System.out.println(cams.get(i) + " has taken " + aux_arr.get(i) + " photos on 1000 sol."); 
 		 
 		      // Now check all other cams amounts excluding the current one on process
 		      for (int j = 0; j < cams.size(); j++)
