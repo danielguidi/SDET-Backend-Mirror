@@ -102,9 +102,8 @@ public class AllTests {
 	public void test_3_RetrieveAndCompareFirst10MarsPhotosOn1000SolAndEDEqual1000MartianSol() {
 		System.out.println("\n\nTest 3: Retrieve and compare the first 10 Mars photos made by \"Curiosity\" on 1000 sol and on Earth date equal to 1000 Martian sol.");
 			
-    	// As Photos From Mars Sol 1000 And Earth Date Equal To Sol 1000 Were Already Retrieved
-		// There is no Need To Retrieve Them Again but the exercise asks to do it.
-		
+    	// As Photos From Mars Sol 1000 And Earth Date Equal To Sol 1000 Were Already Retrieved I jut compare them
+				
 		for (int i = 0; i < 10; i++)
 		     {
 			  try {
